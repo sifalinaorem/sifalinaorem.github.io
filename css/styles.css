@@ -1,13 +1,6 @@
 body{
     margin: 0px auto 0px auto;
-    text-align: center;
     font-family: 'Poppins'
-}
-
-.profile-img{
-    width: 30%;
-    height: 30%;
-    margin: 2rem auto 3rem auto;
 }
 
 h1{
@@ -36,36 +29,65 @@ hr{
     margin: 100px auto;
 }
 
-.top-cloud-img{
+#intro{
+    padding-bottom: 150px;
+}
+
+.intro-text{
+    margin: auto;
+}
+
+.intro-img{
     position: absolute;
-    top: 15%;
-    left: 65%;
+    z-index: 0;
 }
 
-.bottom-cloud-img{
-    position: absolute;
-    top: 50%;
+/*If the max-width is 991px, ie it can be lower)*/
+@media (max-width: 991px){
+
+    #intro{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .intro-img{
+        position: relative;
+        text-align: center;
+    }
 }
 
-.skill-img-fashion{
-    height: 30%;
+#about-me{
+    padding: 3% 10%;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+}
+
+.profile{
+    text-align: center;
+}
+
+.profile-img{
     width: 30%;
-    float: left;
-    margin-right: 30px;
-}
-
-.skill-img-xd{
     height: 30%;
-    width: 30%;
-    float: right;
-    margin-left: 30px;
+    margin: 2rem auto 3rem auto;
 }
 
-.skill-row{
+.skills{
+    text-align: center;
+}
+
+.skill-img{
     width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: left;
-    line-height: 2;
+    height: auto;
+    float: top;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.slideshow-img{
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 #intro{
@@ -83,11 +105,12 @@ hr{
 }
 
 .bottom-container{
+    margin-top: 40px;
     background-color: #66bfbf;
 }
 
 .fashion-text{
-    text-decoration: underline;
+    font-weight: bold;
 }
 
 .footer-link{
