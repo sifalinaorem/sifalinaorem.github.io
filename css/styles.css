@@ -26,7 +26,7 @@ hr{
     border : dotted 6px #d3d3d3;
     border-bottom: none;
     width: 4%;
-    margin: 100px auto;
+    margin: 50px auto;
 }
 
 #intro{
@@ -35,6 +35,10 @@ hr{
 
 .intro-text{
     margin: auto;
+}
+
+.fashion-text{
+    font-weight: bold;
 }
 
 .intro-img{
@@ -104,28 +108,31 @@ hr{
     padding-bottom: 40px;
 }
 
+#end-info{
+    text-align: center;
+}
+
 .bottom-container{
     margin-top: 40px;
+    padding-top: 30px;
     background-color: #66bfbf;
 }
 
-.fashion-text{
-    font-weight: bold;
+.footlink{
+    text-decoration :none;
+    margin: 0px 20px 0px;
+    color:white;
+    font-size: 1.4rem;
 }
 
-.footer-link{
-    margin-top: 30px;
-    display: inline-block;
-    width: 15rem;
-    text-decoration: none;
-    font-size: 1.25rem;
-    color: #488B8B
+.footlink:hover{
+    color: gray;
 }
 
 .copyright-text{
      color: white;
-     padding-top: 50px;
-     padding-bottom: 50px;
+     padding-top: 20px;
+     padding-bottom: 40px;
      font-size: 0.75rem;
      margin: 0;
  }
